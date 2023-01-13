@@ -24,7 +24,6 @@ extension UIView{
 
 class ViewController: UIViewController, UIScrollViewDelegate{
     
-    
     func createView(_ backgroundColor: UIColor) -> UIView{
         let view = UIView()
         view.backgroundColor = backgroundColor
